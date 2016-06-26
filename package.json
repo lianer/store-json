@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "simple json storage, read file into memory",
   "main": "store-json.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lianer/store-json"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -3,12 +3,6 @@ const fs = require('fs')
 const mkdirp = require('mkdirp')
 const q = require('push-queue')()
 
-if(!module.parent){
-	module.parent = {
-		filename: 'D:\\app\\electron-quick-start\\app\\test-data.js'
-	};
-}
-
 var createFile = function (filepath) {
 	var filedir = path.dirname(filepath);
 	var filename = path.basename(filepath);
@@ -63,6 +57,16 @@ Store.prototype.get = function (key) {
 };
 
 module.exports = Store;
+
+
+
+// test
+
+// if(!module.parent){
+// 	module.parent = {
+// 		filename: 'D:\\app\\electron-quick-start\\app\\test-data.js'
+// 	};
+// }
 
 // var db = new Store('./data/a.json');
 
