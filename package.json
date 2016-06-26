@@ -1,0 +1,15 @@
+{
+  "name": "store-json",
+  "version": "1.0.0",
+  "description": "simple json storage, read file into memory",
+  "main": "store-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lianer",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "queuee": "^1.0.0"
+  }
+}
