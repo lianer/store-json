@@ -1,6 +1,6 @@
 {
   "name": "store-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple json storage, read file into memory",
   "main": "store-json.js",
   "repository": {
